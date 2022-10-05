@@ -1,0 +1,48 @@
+﻿@model NEWAPI.Entities.Payments
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Payments</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PaymentDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PaymentDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PaymentMethods.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PaymentMethods.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PaymentStatuses.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PaymentStatuses.Name)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

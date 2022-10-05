@@ -1,0 +1,42 @@
+﻿@model NEWAPI.Entities.Payments
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Payments</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PaymentDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PaymentDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PaymentMethods.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PaymentMethods.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PaymentStatuses.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PaymentStatuses.Name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

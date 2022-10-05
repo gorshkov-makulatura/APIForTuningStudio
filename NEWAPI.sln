@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NEWAPI", "NEWAPI\NEWAPI.csproj", "{FA0D63CD-9E30-4619-BB64-171D142AC479}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA0D63CD-9E30-4619-BB64-171D142AC479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA0D63CD-9E30-4619-BB64-171D142AC479}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA0D63CD-9E30-4619-BB64-171D142AC479}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA0D63CD-9E30-4619-BB64-171D142AC479}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FF6DA65-4138-4E6A-8BFC-3D25E393C983}
+	EndGlobalSection
+EndGlobal
